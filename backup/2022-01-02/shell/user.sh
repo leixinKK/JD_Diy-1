@@ -30,7 +30,7 @@ uninstall() {
 update() {
   echo "更新user监控！"
   echo ""
-  raw=https://raw.githubusercontent.com/chiupam/JD_Diy/main/jbot/user
+  raw=https://raw.githubusercontent.com/leixinKK/JD_Diy-1/main/jbot/user
   wget $raw/utils.py -O $root/jbot/user/utils.py
   wget $raw/activityID.py -O $root/jbot/user/activityID.py
   wget $raw/follow.py -O $root/jbot/user/follow.py
